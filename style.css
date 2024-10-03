@@ -1,0 +1,24 @@
+.pelota{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:fixed;
+    min-height: 1rem;
+    min-width: 1rem;
+    border: 1px solid black;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+}
+
+
+#stats{
+    position:fixed;
+    z-index: 10000;
+    top:0;
+    left:0;
+    background-color: rgba(250, 235, 215, 0.72);
+    padding: 0.5em;
+    border-bottom-right-radius: 10px;
+    text-decoration: underline;
+}
